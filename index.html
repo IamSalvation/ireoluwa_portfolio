@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ireoluwa Omoniyi · Executive &amp; Administrative VA</title>
+
+  <!-- ====== FAVICON ====== -->
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/android-chrome-512x512.png" />
+  <link rel="manifest" href="./assets/site.webmanifest" />
+
+  <!-- ====== OPEN GRAPH / SOCIAL MEDIA PREVIEW ====== -->
+  <meta property="og:title" content="Ireoluwa Omoniyi · Executive &amp; Administrative VA" />
+  <meta property="og:description"
+    content="Helping busy founders, executives, and coaches stay organized, focused, and in control by handling administrative tasks that slow them down." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lamSalvation.github.io/ireoluwa_portfolio/" />
+  <meta property="og:image" content="https://lamSalvation.github.io/ireoluwa_portfolio/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ireoluwa Omoniyi · Executive &amp; Administrative VA" />
+  <meta name="twitter:description"
+    content="Helping busy founders, executives, and coaches stay organized, focused, and in control by handling administrative tasks that slow them down." />
+  <meta name="twitter:image" content="https://lamSalvation.github.io/ireoluwa_portfolio/assets/og-image.jpg" />
+
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+    rel="stylesheet" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- READING PROGRESS BAR -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- PAGE LOADER -->
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <!-- DECORATIVE SHAPES -->
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+  <div class="shape shape-4"></div>
+
+  <!-- MOUSE TRAIL -->
+  <div class="mouse-trail"></div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- SCROLL INDICATOR -->
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-arrow">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="logo">Ireoluwa<span>.</span></div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#booking">Book</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <div class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fas fa-bolt" style="margin-right:6px;"></i>Executive Support &amp;
+          Workflow</span>
+        <h1>
+          Stay organized &amp;
+          <span class="typing-wrapper">
+            <span class="typing-text"></span>
+            <span class="cursor">|</span>
+          </span>
+        </h1>
+        <div class="hero-tagline">Helping busy founders, executives, and coaches stay organized, focused, and in control
+          by handling the administrative tasks that slow them down.</div>
+        <div class="hero-stats-mini">
+          <div><strong id="counter1">500</strong>+ connections</div>
+          <div><strong id="counter2">2</strong>+ years experience</div>
+          <div><strong id="counter3">17</strong> skills</div>
+        </div>
+        <div>
+          <a href="#booking" class="btn btn-booking"><i class="fas fa-calendar-check" style="margin-right:8px;"></i>Book
+            a consultation</a>
+          <a href="#experience" class="btn btn-outline">View experience</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-frame">
+          <div class="hero-image">
+            <img src="./assets/ireoluwa.JPG" alt="Ireoluwa Omoniyi – Virtual Assistant & Executive Support"
+              class="tilt-image" />
+          </div>
+          <!-- ALX Certified Badge -->
+          <div class="certified-badge">
+            <div class="badge-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="badge-text">
+              <span class="badge-title">ALX Certified</span>
+              <span class="badge-sub">Virtual Assistant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0 C300,100 600,20 900,80 C1050,110 1150,60 1200,40 L1200,120 L0,120 Z" fill="#FFF8F0" />
+      <path d="M0,0 C300,80 600,0 900,60 C1050,90 1150,40 1200,20 L1200,120 L0,120 Z" fill="#faf0e3" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="container" id="about">
+    <section class="about fade-in">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="hero-badge" style="background:#e8dccf; margin-bottom:14px;">about me</span>
+          <h2 class="section-title gradient-text">Reliable support. Organized systems. Peace of mind.</h2>
+          <p>I'm a detail-oriented and resourceful Certified Virtual Assistant with a solid background in administrative
+            support. I'm passionate about helping businesses and busy professionals stay focused, organized, and
+            productive.</p>
+          <p>As an Administrative Assistant at <strong>Anchor University Lagos</strong>, I developed hands-on experience
+            in office management, scheduling, document management, communication, and ensuring seamless workflow.
+            Certified through the <strong>ALX VA Programme</strong>, I bring a strong foundation in office management,
+            effective communication, and adaptability to virtual environments, along with digital tools to deliver
+            efficient remote administrative support and high-quality service.</p>
+          <p>I have built systems for project management, client tracking, content calendars, and full back-end support
+            — helping businesses save time, reduce friction, and operate more smoothly.</p>
+          <a href="./assets/Omoniyi_Ireoluwa_Virtual_Assistant_CV.pdf" download class="btn btn-booking"
+            style="margin-top:16px; display:inline-block;">
+            <i class="fas fa-file-pdf" style="margin-right:8px;"></i>Download Resume
+          </a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-count="2">0</div>
+            <div class="stat-label">years experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="17">0</div>
+            <div class="stat-label">skills</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="5">0</div>
+            <div class="stat-label">work samples</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider reverse">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,40 C300,100 600,20 900,80 C1050,110 1150,60 1200,80 L1200,0 L0,0 Z" fill="#FFF8F0" />
+      <path d="M0,60 C300,120 600,40 900,100 C1050,130 1150,80 1200,100 L1200,0 L0,0 Z" fill="#faf0e3" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-in gradient-text">Core expertise</h2>
+      <div class="section-sub fade-in">Tools &amp; skills I bring to every engagement</div>
+      <div class="skills-grid">
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-user-cog"></i>
+          <h4>Administrative Support</h4>
+          <p>Office management &amp; operations</p>
+        </a>
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-envelope-open-text"></i>
+          <h4>Email &amp; Calendar</h4>
+          <p>Inbox &amp; scheduling management</p>
+        </a>
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-file-alt"></i>
+          <h4>Document &amp; Records</h4>
+          <p>Filing, SOPs, data entry</p>
+        </a>
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-tasks"></i>
+          <h4>Project &amp; Task Coordination</h4>
+          <p>Trello, ClickUp, Asana, Notion</p>
+        </a>
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-share-alt"></i>
+          <h4>Social Media &amp; Content</h4>
+          <p>Calendars &amp; scheduling</p>
+        </a>
+        <a href="#" class="skill-card fade-in" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-laptop"></i>
+          <h4>Tech Stack</h4>
+          <p>Google Workspace, Microsoft Office</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0 C300,100 600,20 900,80 C1050,110 1150,60 1200,40 L1200,120 L0,120 Z" fill="#faf0e3" />
+      <path d="M0,0 C300,80 600,0 900,60 C1050,90 1150,40 1200,20 L1200,120 L0,120 Z" fill="#FFF8F0" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="container" id="experience">
+    <section class="experience">
+      <h2 class="section-title fade-in gradient-text">Experience</h2>
+      <div class="section-sub fade-in">Where I've built operational excellence</div>
+      <div class="exp-timeline">
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <h3>Administrative Assistant <span class="company">· Anchor University Lagos</span></h3>
+            <span class="date">Sep 2024 – Aug 2025 · 1 yr</span>
+          </div>
+          <div class="exp-desc">Provided administrative support to ensure smooth daily operations, including office
+            management, scheduling, document management, and communication. Supported faculty boards and managed records
+            for efficient workflow.</div>
+          <div class="exp-skills"><span>Administrative Support</span><span>Office Management</span><span>Document
+              Management</span></div>
+        </div>
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <h3>Virtual Assistant (Freelance) <span class="company">· Self-employed</span></h3>
+            <span class="date">Sep 2025 – Present · 9 mos</span>
+          </div>
+          <div class="exp-desc">Currently available for Virtual Assistant roles – full-time, part-time, or
+            project-based. Offering executive support, calendar management, email management, project coordination, and
+            systems setup for busy founders and executives.</div>
+          <div class="exp-skills"><span>Executive Support</span><span>Project Coordination</span><span>Systems
+              Setup</span></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider reverse">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,40 C300,100 600,20 900,80 C1050,110 1150,60 1200,80 L1200,0 L0,0 Z" fill="#FFF8F0" />
+      <path d="M0,60 C300,120 600,40 900,100 C1050,130 1150,80 1200,100 L1200,0 L0,0 Z" fill="#faf0e3" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- CERTIFICATIONS & EDUCATION -->
+  <div class="container" id="certifications">
+    <section class="certs">
+      <h2 class="section-title fade-in gradient-text">Education &amp; Certifications</h2>
+      <div class="section-sub fade-in">Academic background &amp; professional development</div>
+
+      <div class="cert-grid">
+        <div class="cert-card fade-in">
+          <h4>B.Agric. Tech. (Ecotourism and Wildlife Management)</h4>
+          <div class="issuer">Federal University of Technology, Akure, Ondo State</div>
+          <div class="date">2024</div>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>Certified Virtual Assistant</h4>
+          <div class="issuer">ALX Africa</div>
+          <div class="date">Issued 2024</div>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>Certificate in Data Analysis</h4>
+          <div class="issuer">TS Academy</div>
+          <div class="date">Issued 2026</div>
+        </div>
+        <div class="cert-card fade-in">
+          <h4>Certificate of National Service (NYSC)</h4>
+          <div class="issuer">National Youth Service Corps, Batch B</div>
+          <div class="date">Issued 2024</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0 C300,100 600,20 900,80 C1050,110 1150,60 1200,40 L1200,120 L0,120 Z" fill="#FFF8F0" />
+      <path d="M0,0 C300,80 600,0 900,60 C1050,90 1150,40 1200,20 L1200,120 L0,120 Z" fill="#faf0e3" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- PORTFOLIO - AUTO SCROLLING CAROUSEL -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title fade-in gradient-text">Work Samples</h2>
+      <div class="section-sub fade-in">Projects and systems I've built for clients</div>
+
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Slide 1 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/TM_board.jpg" alt="TM World Media Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Project Management</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>Project Management — TM World Media</h4>
+                <p>Set up a project management board to help TM World Media stay organized and consistent with tasks and
+                  deadlines.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/Bloom_TaskBoard.jpg" alt="BloomDesk Co. Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Client Support</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>Full Client Support — BloomDesk Co.</h4>
+                <p>A complete backend system that helps a busy consulting business stay organized, respond to clients
+                  professionally and track work weekly.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/ClickUp_board.jpg" alt="PureGlow Co. Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Business Systems</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>Business Organization — PureGlow Co.</h4>
+                <p>A fully organized ClickUp system that helps PureGlow Co. manage social media, admin tasks and product
+                  launches all in one place.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/sheet_one.jpg" alt="Google Sheets Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Data Management</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>Client Tracking — Google Sheets</h4>
+                <p>A clean, organized system that helps a VA or business owner know exactly where every client stands at
+                  a glance without missing a follow-up.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/Content_calendar.jpg" alt="Content Calendar Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Content Strategy</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>LinkedIn Content Calendar — Spark &amp; Shelf</h4>
+                <p>A ready-to-use, strategic content system that takes the guesswork out of LinkedIn posting saving the
+                  client hours of planning every week.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="carousel-slide">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="./assets/automation_project.jpg" alt="Automation Project" />
+                <div class="portfolio-overlay">
+                  <span class="portfolio-tag">Automation</span>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h4>Automated Onboarding System</h4>
+                <p>Streamlined client onboarding with automated workflows, reducing manual work and improving response
+                  consistency.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-btn prev-btn" id="prevBtn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next-btn" id="nextBtn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <!-- Dots -->
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider reverse">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,40 C300,100 600,20 900,80 C1050,110 1150,60 1200,80 L1200,0 L0,0 Z" fill="#faf0e3" />
+      <path d="M0,60 C300,120 600,40 900,100 C1050,130 1150,80 1200,100 L1200,0 L0,0 Z" fill="#FFF8F0" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- TESTIMONIALS - SCROLLING MARQUEE -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title fade-in gradient-text">What Clients Say</h2>
+      <div class="section-sub fade-in">Real feedback from people I've worked with</div>
+
+      <div class="testimonial-marquee-wrapper">
+        <div class="testimonial-marquee">
+          <!-- Testimonial 1 - Emmanuel A. -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Before working with Ireoluwa, managing my emails felt overwhelming. She completely transformed how my
+              inbox was organized, making it easy to navigate and stay on top of every message without the usual stress.
+              The difference was remarkable, I never thought email management could feel this seamless. Highly
+              recommended!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">EA</div>
+              <div>
+                <h4>Emmanuel A.</h4>
+                <span>Graphic Designer &amp; CEO, TM World</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 - Kikelomo C. O -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Working with Ireoluwa on my CV was a great experience. She helped me move beyond generic bullet points
+              and present my actual achievements in a way that truly stood out. Her attention to detail and formatting
+              guidance made a real difference. I highly recommend her."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">KO</div>
+              <div>
+                <h4>Kikelomo C. O</h4>
+                <span>Quality Assurance Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 - Sarah Johnson -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Ireoluwa helped me organize my entire client management system. I went from 5 hours of admin work to
+              just 1 hour per week! She's a lifesaver."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SJ</div>
+              <div>
+                <h4>Sarah Johnson</h4>
+                <span>CEO, BloomDesk Co.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 - Michael Adebayo -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Her attention to detail and ability to anticipate needs is exceptional. She's become an invaluable part
+              of our team."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">MA</div>
+              <div>
+                <h4>Michael Adebayo</h4>
+                <span>Founder, TM World Media</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate for seamless scroll -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Before working with Ireoluwa, managing my emails felt overwhelming. She completely transformed how my
+              inbox was organized..."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">EA</div>
+              <div>
+                <h4>Emmanuel A.</h4>
+                <span>Graphic Designer &amp; CEO, TM World</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Working with Ireoluwa on my CV was a great experience. She helped me move beyond generic bullet points
+              and present my actual achievements..."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">KO</div>
+              <div>
+                <h4>Kikelomo C. O</h4>
+                <span>Quality Assurance Officer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider reverse">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,40 C300,100 600,20 900,80 C1050,110 1150,60 1200,80 L1200,0 L0,0 Z" fill="#faf0e3" />
+      <path d="M0,60 C300,120 600,40 900,100 C1050,130 1150,80 1200,100 L1200,0 L0,0 Z" fill="#FFF8F0" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- BOOKING / CONSULTATION CARD with Calendly -->
+  <div class="container" id="booking">
+    <section class="booking-section">
+      <div class="booking-card fade-in">
+        <div class="booking-text">
+          <h3><i class="fas fa-calendar-alt" style="color:#b17a6b; margin-right:10px;"></i>Book a consultation</h3>
+          <p>Let's talk about your operational challenges. I'll help you map out a plan to save time, reduce friction,
+            and scale with confidence.</p>
+        </div>
+        <div class="booking-actions">
+          <a href="https://calendly.com/omoniyiireoluwa/discovery-call" target="_blank" rel="noopener noreferrer"
+            class="btn btn-booking">
+            <i class="fas fa-calendar-check" style="margin-right:8px;"></i>Schedule a call
+          </a>
+          <a href="https://wa.me/2348168385418" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp" style="margin-right:8px;"></i>Chat on WhatsApp
+          </a>
+          <a href="mailto:omoniyiireoluwa@gmail.com" class="btn btn-outline">
+            <i class="fas fa-envelope" style="margin-right:8px;"></i>Email me
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0 C300,100 600,20 900,80 C1050,110 1150,60 1200,40 L1200,120 L0,120 Z" fill="#FFF8F0" />
+      <path d="M0,0 C300,80 600,0 900,60 C1050,90 1150,40 1200,20 L1200,120 L0,120 Z" fill="#faf0e3" opacity="0.5" />
+    </svg>
+  </div>
+
+  <!-- CONTACT / CTA -->
+  <div class="container" id="contact">
+    <section class="contact-cta">
+      <div class="contact-wrap">
+        <div class="contact-info fade-in">
+          <span class="hero-badge" style="background:#e8dccf; margin-bottom:10px;">connect</span>
+          <h3 class="gradient-text">Let's streamline your operations</h3>
+          <p>Reliable support. Organized systems. Peace of mind. Ready to take administrative tasks off your plate?</p>
+          <div class="contact-item"><i class="fas fa-envelope"></i> omoniyiireoluwa@gmail.com</div>
+          <div class="contact-item"><i class="fas fa-map-pin"></i> Lagos, Nigeria · Remote</div>
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/ireoluwaomoniyi" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/2348168385418" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form fade-in">
+          <form id="contactForm" action="https://formspree.io/f/mjgqlbyl" method="POST">
+            <div class="form-group"><input type="text" name="name" placeholder="Your name" required /></div>
+            <div class="form-group"><input type="email" name="email" placeholder="Email address" required /></div>
+            <div class="form-group"><textarea name="message" placeholder="Tell me about your operational challenges…"
+                required></textarea></div>
+            <button type="submit" class="btn-submit"><i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Send
+              message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Ireoluwa Omoniyi · Executive &amp; Administrative Virtual Assistant</p>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
